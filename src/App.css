@@ -4,3 +4,56 @@
   padding: 2rem;
   text-align: center;
 }
+.main-container{
+  width: 90vw;
+  height: 90vh;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.input-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: last baseline;
+  justify-content: last baseline;
+}
+
+.list-wrapper{
+  display: flex;
+  align-items: start;
+  border: 1px solid ;
+  width: 40%;
+  padding: 10px;
+  min-height: 100px;
+  flex-direction: column;
+}
+
+.label{
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.button{
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 8px;
+padding-right: 8px;
+margin: 12px;
+margin-left: 0;
+margin-top: 0;
+height: 36px;
+background-color: lightgray;
+border: 2px solid lightgray;
+color: black;
+}
+
+.input{
+  height: 20px;
+  width: 300px;
+  padding: 8px;
+  font-size: 16px;
+}
