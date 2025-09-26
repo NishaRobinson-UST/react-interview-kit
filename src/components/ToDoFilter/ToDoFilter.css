@@ -1,9 +1,10 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: last baseline;
+  justify-content: last baseline;
 }
+
 
 .label {
   font-size: 18px;
@@ -24,4 +25,8 @@
   background-color: lightgray;
   border: 2px solid lightgray;
   color: black;
+}
+
+.button-active {
+  background-color: lightblue;
 }
