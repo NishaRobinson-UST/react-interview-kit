@@ -21,14 +21,14 @@ function ToDoFilter({ filterType, setFilterType }: ToDoFilterProps) {
           All
         </button>
         <button
-          className={`button ${filterType === "Completed" && "button-active"}`}
+          className={`button ${filterType === "Active" && "button-active"}`}
           data-testid="filter-active"
           onClick={() => setFilterType("Active")}
         >
           Active
         </button>
         <button
-          className={`button ${filterType === "Active" && "button-active"}`}
+          className={`button ${filterType === "Completed" && "button-active"}`}
           data-testid="filter-completed"
           onClick={() => setFilterType("Completed")}
         >
